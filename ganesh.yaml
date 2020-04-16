@@ -8,9 +8,7 @@ spec:
  containers:
    - name: nginxcontainer1
      image: nginx
-      ports:
-        - containerPort: 80
-
+     
 ---
 
 apiVersion: v1
